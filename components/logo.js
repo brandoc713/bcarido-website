@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import FootprintIcon from './icons/footprint'
 import { Text, useColorModeValue } from '@chakra-ui/react'
 
@@ -20,7 +19,6 @@ padding: 10 px;
 `
 
 const Logo = () => {
-    const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
 
     return (
 	    <Link href="/" scroll={false}>

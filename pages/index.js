@@ -6,7 +6,6 @@ import {
 	Heading, 
 	Image, 
 	useColorModeValue, 
-	Link
 } from '@chakra-ui/react'
 import Section from '../components/section.js'
 import Paragraph from '../components/paragraph.js'
