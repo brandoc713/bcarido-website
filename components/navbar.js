@@ -18,19 +18,22 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 
-const LinkItem = ({ href, path, children }) => {
+const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return (
-	    <NextLink href={href}>
 	    <Link
-	p={2}
-	bg={active ? 'grassTeal' : undefined}
-	color={active ? '#202023' : inactiveColor}
+			as={NextLink}
+			href={href}
+			scroll={false}
+			p={2}
+			bg={active ? 'grassTeal' : undefined}
+			color={active ? '#202023' : inactiveColor}
+			target={target}
+			{...props}
 	    >
-	    {children}
+	    	{children}
 	    </Link>
-	    </NextLink>
     )
 }
 
