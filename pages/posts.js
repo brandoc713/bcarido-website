@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbPHI from "../public/images/posts/Coron2.JPG"
+
 
 const Posts = () => (
     <Layout title="Posts">
@@ -13,7 +13,7 @@ const Posts = () => (
             </Heading>
             <Section delay={.1}>
                 <SimpleGrid columns={[1,2,2]} gap={6}>
-                    <GridItem title="The Philippines Trip" thumbnail={thumbPHI} href=""/>
+                    <GridItem title="The Philippines Trip" href=""/>
                 </SimpleGrid>
             </Section>
         </Container>
