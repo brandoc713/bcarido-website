@@ -41,6 +41,8 @@ const MenuLink = forwardRef((props, ref) => (
 	<Link ref={ref} as={NextLink} {...props} />
   ))
 
+MenuLink.displayName = 'MenuLink'; // Add displayName here
+
 const Navbar = (props) => {
     const { path } = props
 
