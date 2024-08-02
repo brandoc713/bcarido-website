@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thePHI from '../public/images/posts/Coron2.jpg'
+import thePHI from '../public/images/posts/coron.jpg'
 
 const Posts = () => (
     <Layout title="Posts">
