@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbPHI from "../public/images/posts/Coron2.jpg"
+import thumbPHI from "../public/images/posts/Coron2.JPG"
 
 const Posts = () => (
     <Layout title="Posts">
