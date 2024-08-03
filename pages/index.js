@@ -92,7 +92,10 @@ const Page = () => {
 				My Passions
 			</Heading>
 			<Paragraph>
-				Basketball(NBA), Music(Drums+Piano), Esports(Call of Duty + Valorant), Journaling, Reading
+			Basketball(NBA), Music(Drums+Piano), Esports(Call of Duty + Valorant), Journaling, Reading
+			</Paragraph>
+			<Paragraph>
+				Blah
 			</Paragraph>
 		</Section>
 		</Container>
