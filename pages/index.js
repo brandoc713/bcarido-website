@@ -18,7 +18,7 @@ const Page = () => {
 	<Layout>
 		<Container>
 			<Box borderRadius="lg" bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.200')} p={3} mb={6} align="center">
-			Hello, my name is Brandon Carido I&apos;m currently a 3rd Year college student pursuing the Dartmouth Engineering&apos;s Partner School Dual-Degree Program.
+			Hello, my name is Brandon Carido I&apos;m currently a 4th Year college student pursuing the Dartmouth Engineering&apos;s Partner School Dual-Degree Program.
 			</Box>
 
 			<Box display={{ md: 'flex'}}>
@@ -26,7 +26,7 @@ const Page = () => {
 				<Heading as="h2" variant="page-title">
 					Brandon Carido
 				</Heading>
-				<p> Full-Time Student ( Builder / Perpetual Learner / StrataScratch Specialist ) </p>
+				<p> Full-Time Student ( Builder / Perpetual Learner / Full-Time Student ) </p>
 				</Box>
 				<Box 
 					flexShrink={0} 
@@ -92,10 +92,7 @@ const Page = () => {
 				My Passions
 			</Heading>
 			<Paragraph>
-			Basketball(NBA), Music(Drums+Piano), Esports(Call of Duty + Valorant), Journaling, Reading
-			</Paragraph>
-			<Paragraph>
-				Blah
+				Basketball(NBA), Music(Drums+Piano), Esports(Call of Duty + Valorant), Journaling, Reading
 			</Paragraph>
 		</Section>
 		</Container>
