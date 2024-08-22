@@ -15,7 +15,7 @@ import Layout from '../components/layouts/article.js'
 
 const Page = () => {
     return (
-	<Layout>
+		<Layout>
 		<Container>
 			<Box borderRadius="lg" bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.200')} p={3} mb={6} align="center">
 			Hello, my name is Brandon Carido I&apos;m currently a 4th Year college student pursuing the Dartmouth Engineering&apos;s Partner School Dual-Degree Program.
@@ -26,7 +26,7 @@ const Page = () => {
 				<Heading as="h2" variant="page-title">
 					Brandon Carido
 				</Heading>
-				<p> Full-Time Student ( Builder / Perpetual Learner / Full-Time Student ) </p>
+				<p> Full-Time Student (Builder / Perpetual Learner / Full-Time Student) </p>
 				</Box>
 				<Box 
 					flexShrink={0} 
@@ -49,9 +49,15 @@ const Page = () => {
 
 		<Section delay={0.1}>
 			<Heading as="h3" variant="section-title">
-				Work
+				About Me
 			</Heading>
-			<Paragraph>Paragraph Filler
+			<Paragraph>
+				I have always been interested in electronics from a young age. 
+				During my younger years, I spent a lot of time on the computer, browsing the internet, and playing video games with family and friends. 
+				I started developing my academic passions towards the second half of high school. With the support of great teachers and my own curiosity,
+				I decided to pursue a field related to coding or physics. I decided to attend Vassar College in Poughkeepsie, NY, 
+				with plans to join the Dartmouth Dual-Degree Engineering Program. Thus, I could get exposed to both of my interests during my time as an 
+				undergraduate student.
 			</Paragraph>
 			<Box align="center" my={4}>
 				<NextLink href="/works">
@@ -60,6 +66,16 @@ const Page = () => {
 				</Button>
 				</NextLink>
 			</Box>
+		</Section>
+		<Section delay={0.1}>
+			<Heading as="h3" variant="section-title">
+				Currently
+			</Heading>
+			<Paragraph>
+			During the 2023-2024 academic year, I completed a full year at Dartmouth College as an aspiring electrical engineer. 
+			With the Fall 2024 term approaching, I'll begin my fourth year of college, 
+			finishing my Computer Science degree and graduating from Vassar College with a Bachelor of Arts in Computer Science.
+			</Paragraph>
 		</Section>
 		<Section delay={0.2}>
 			<Heading as="h3" variant="section-title" >
@@ -92,7 +108,7 @@ const Page = () => {
 				My Passions
 			</Heading>
 			<Paragraph>
-				Basketball(NBA), Music(Drums+Piano), Esports(Call of Duty + Valorant), Journaling, Reading
+				Basketball(NBA), Music — Drums, Music — Piano, Esports — Valorant, Esports — Call of Duty, Journaling, Reading
 			</Paragraph>
 		</Section>
 		</Container>

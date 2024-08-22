@@ -13,7 +13,7 @@ const Posts = () => (
             </Heading>
             <Section delay={.1}>
                 <SimpleGrid columns={[1,2,2]} gap={6}>
-                    <GridItem title="The Philippines Trip" thumbnail={thePHI} href="https://en.wikipedia.org/wiki/Philippines"/>
+                    <GridItem title="The Philippines Trip" thumbnail={thePHI} href="https://samandkelsadventures.com/asia/philippines/"/>
                 </SimpleGrid>
             </Section>
         </Container>
