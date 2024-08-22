@@ -73,7 +73,7 @@ const Page = () => {
 			</Heading>
 			<Paragraph>
 			During the 2023-2024 academic year, I completed a full year at Dartmouth College as an aspiring electrical engineer. 
-			With the Fall 2024 term approaching, I'll begin my fourth year of college, 
+			With the Fall 2024 term approaching, I&apos;ll begin my fourth year of college, 
 			finishing my Computer Science degree and graduating from Vassar College with a Bachelor of Arts in Computer Science.
 			</Paragraph>
 		</Section>
