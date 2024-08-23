@@ -1,0 +1,14 @@
+.dynamic-gradient-background {
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background 0.1s ease;
+    z-index: -1;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh; /* Ensures the content container covers at least the viewport height */
+}
