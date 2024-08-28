@@ -14,9 +14,11 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio.js'
 import Layout from '../components/layouts/article.js'
 import MusicPlayer from '../components/musicPlayer.js'
+import CountdownCircles from '../components/countdown.js'
 
 const Page = () => {
     return (
+		//Gradient Code
 		<Box
 			minHeight="100vh"  // Ensure full viewport height
 			width="100vw"  // Ensure full viewport width
@@ -33,10 +35,8 @@ const Page = () => {
         <Container maxWidth="100%" p={0} m={0}>
 			<Layout>	
 			<Flex direction={{ base: 'column', md: 'row' }} pt="50px">
-				<Box flex="0.3" mr={{ md:6 }}>
-					<Box bg={useColorModeValue('gray.300', 'gray.700')} p={4} borderRadius="md" mb={6}>
-			  			<p>Left Column Content</p>
-					</Box>
+				<Box flex="0.3" ml= {{ md: 6}}>
+					<CountdownCircles />
 				</Box>
 				{/* Main Content */}
 				<Box flex="1">
