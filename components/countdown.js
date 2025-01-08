@@ -13,7 +13,7 @@ const Wrapper = styled.div`
   padding: 1rem;
   border 2px double #ff6347; /* Border around all circles */
   border-radius: 15px;
-  background: radial-gradient(circle, rgba(207, 71, 90, 0.70), rgba(255, 228, 163, 0.8)); /* Gradient background */
+  background: radial-gradient(circle, rgba(1, 121, 111, 0.7), rgba(1, 121, 111, 0.7)); /* Gradient background */
   max-width: fit-content;
   margin: 0 auto;
 `;
@@ -28,7 +28,7 @@ const Box = styled.div`
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #fff; /* Box background color */
+  background-color: #FFFDD0; /* Box background color */
 `;
 
 const Title = styled.h2`
@@ -66,11 +66,11 @@ const Circle = styled.div`
 `;
 
 const CountdownCirclesComponent = () => {
-  const targetDate = moment('12/20/2024', 'MM/DD/YYYY');
+  const targetDate = moment('05/20/2025', 'MM/DD/YYYY');
   const [timeLeft, setTimeLeft] = useState(getTimeLeft(targetDate));
 
   useEffect(() => {
-    const targetDate = moment('12/20/2024', 'MM/DD/YYYY');
+    const targetDate = moment('05/20/2025', 'MM/DD/YYYY');
     setTimeLeft(getTimeLeft(targetDate))
 
     const interval = setInterval(() => {
@@ -98,7 +98,7 @@ const CountdownCirclesComponent = () => {
   return (
     <Wrapper>
         <Box>
-            <Title>Countdown to the End of Fall ‘24.</Title>
+            <Title>Countdown to the End of Spring ‘25.</Title>
         </Box>
         <Spacer />
         <Container>

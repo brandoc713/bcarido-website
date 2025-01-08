@@ -23,8 +23,8 @@ const Page = () => {
 			minHeight="100vh"  // Ensure full viewport height
 			width="100vw"  // Ensure full viewport width
 			bgGradient={useColorModeValue(
-				"linear-gradient(to-b, rgba(207, 71, 90, 0.70), rgba(255, 228, 163, 0.8))",  // Light mode gradient with opacity
-        		"linear-gradient(to-b, rgba(118, 123, 150, 0.8), rgba(198, 162, 255, 0.8))"   // Dark mode gradient with opacity
+				"linear-gradient(to-b, rgba(207, 71, 89, 0.5), rgba(255, 228, 163, 0.8))",  // Light mode gradient with opacity
+        		"linear-gradient(to-b, rgba(118, 123, 150, 0.5), rgba(198, 162, 255, 0.8))"   // Dark mode gradient with opacity
 			  )}  // Gradient background
 			p={4}  // Padding
 			m={0}  // Remove margins
